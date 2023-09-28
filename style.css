@@ -52,3 +52,9 @@ header > img{
       grid-template-columns: 1fr;
     }
 }
+@media (max-width: 767px, max-width: 1023px) {
+    .content {
+      grid-template-areas: "main main main" "anchors anchors anchors" "sidebar sidebar sidebar";
+      grid-template-columns: 1fr;
+    }
+}
